@@ -19,7 +19,8 @@ Create a GitHub Release with:
 ```text
 Tag: v0.1.0-alpha
 Release title: PunamIDE v0.1.0 Alpha
-Asset: PunamIDE-Setup.exe
+Recommended asset: PunamIDE-Setup-v0.1.0-alpha.exe
+Optional asset: PunamIDE-v0.1.0-alpha-x64.msi
 ```
 
 ## Steps
@@ -28,7 +29,8 @@ Asset: PunamIDE-Setup.exe
 2. Confirm the installer filename:
 
    ```text
-   PunamIDE-Setup.exe
+   PunamIDE-Setup-v0.1.0-alpha.exe
+   PunamIDE-v0.1.0-alpha-x64.msi
    ```
 
 3. Open GitHub Releases.
@@ -51,10 +53,11 @@ Asset: PunamIDE-Setup.exe
    RELEASE_NOTES_v0.1.0-alpha.md
    ```
 
-8. Upload the installer asset:
+8. Upload the installer assets:
 
    ```text
-   PunamIDE-Setup.exe
+   PunamIDE-Setup-v0.1.0-alpha.exe
+   PunamIDE-v0.1.0-alpha-x64.msi
    ```
 
 9. Publish the release.
@@ -64,7 +67,7 @@ Asset: PunamIDE-Setup.exe
 After publishing, link the website download button to:
 
 ```text
-https://github.com/punamide/punamide-downloads/releases/latest
+https://github.com/punamide/punamide-downloads/releases/download/v0.1.0-alpha/PunamIDE-Setup-v0.1.0-alpha.exe
 ```
 
 Or link directly to the release:

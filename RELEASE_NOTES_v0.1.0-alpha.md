@@ -11,6 +11,7 @@ This release focuses on Windows alpha testing, native snapshots, AI-assisted wor
 
 Website: [https://punamide.com](https://punamide.com)  
 Discord: [https://discord.gg/PFp9KWY3eY](https://discord.gg/PFp9KWY3eY)
+X: [https://x.com/PunamIDE](https://x.com/PunamIDE)
 
 ## Features
 
@@ -64,7 +65,7 @@ PunamIDE includes early alpha diagnostics:
 1. Download the installer asset:
 
    ```text
-   PunamIDE-Setup.exe
+   PunamIDE-Setup-v0.1.0-alpha.exe
    ```
 
 2. Run the installer.
@@ -72,6 +73,22 @@ PunamIDE includes early alpha diagnostics:
 4. Configure your AI provider if required.
 5. Open a project folder.
 6. Create a snapshot before trying risky AI edits.
+
+Optional MSI asset for advanced/admin installs:
+
+```text
+PunamIDE-v0.1.0-alpha-x64.msi
+```
+
+## Checksums
+
+```text
+PunamIDE-Setup-v0.1.0-alpha.exe
+SHA256: 04F8F6B3CB81201C37F65E5359037A0CA0A808F8A9FC30F84ED334F73ABF0419
+
+PunamIDE-v0.1.0-alpha-x64.msi
+SHA256: 8AF9A8091367B7BF341606B357AE7ACCE63E5B4B3E911A2007F5FC4ACEF7B53E
+```
 
 ## Feedback
 
