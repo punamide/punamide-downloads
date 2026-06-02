@@ -1,0 +1,12 @@
+# Release installers should be uploaded as GitHub Release assets, not committed.
+assets/installer/*
+!assets/installer/.gitkeep
+
+*.exe
+*.msi
+*.msix
+*.zip
+*.7z
+
+.DS_Store
+Thumbs.db
